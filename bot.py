@@ -1,4 +1,4 @@
-﻿#!/usr/bin/python
+#!/usr/bin/python
 import requests, json, time, random
 def like(idlike, token):
     reaction_list =  ['LIKE', 'LOVE', 'WOW', 'HAHA', 'SAD', 'ANGRY']
@@ -9,7 +9,6 @@ def like(idlike, token):
     print reaction, idlike
 token = ''
 
-# pass id below 
 #364997627165697 J2team
 #100003880469096 Manh Tuan
 next_id = ['364997627165697', '100003880469096', '100010362521296','100005179329159','100009618621937']
